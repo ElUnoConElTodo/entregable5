@@ -1,0 +1,28 @@
+body{
+    position: relative;
+}
+.home{
+    position: absolute;
+    top: 180px;
+    display: flex;
+    left: 14%;
+    right: 3%;
+}
+.home_welcome{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+}
+.home_hello{
+    color: rgb(197, 0, 0);
+}
+.home_imput{
+    font-size: 16px;
+}
+.home_btn{
+    font-size: 16px;
+    color: white;
+    background-color: rgb(204, 0, 0);
+    border-color: transparent;
+}

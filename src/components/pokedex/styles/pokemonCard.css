@@ -1,0 +1,189 @@
+.pokemonCard{
+    width: min(320px, 100%);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    cursor: pointer;
+}
+.pokemonCard__header{
+    height: 130px;
+}
+.pokemonCard__body{
+    margin-top: 20px;
+   padding: 20px;
+}
+.pokemonCard__img{
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    right: 20%;
+    
+}
+.pokemonCard__name{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 33px;
+    text-transform: capitalize;
+}
+.pokemonCard__types{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 19px;
+    padding: 4px;
+}
+.pokemonCard__type-subtitle{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+    padding: 4px;
+}
+.pokemonCard__line{
+    width: 116%;
+    position: relative;
+    margin-left: -19px;
+}
+.pokemonCard__stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding-top: 6px;
+}
+.pokemonCard__stat{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2px;
+}
+.pokemonCard__stat-name{
+    color: grey;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 2px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+.pokemonCard__value{
+    font-size: 19px;
+}
+
+.border-normal {
+    border: 10px solid #68424a;
+  }
+  .border-fighting {
+    border: 10px solid #a02f1b;
+  }
+  .border-flying {
+    border: 10px solid #beb14c;
+  }
+  .border-poison {
+    border: 10px solid #5B3184;
+  }
+  .border-ground {
+    border: 10px solid #654008;
+  }
+  .border-rock {
+    border: 10px solid #7E7E7E;
+  }
+  .border-bug {
+    border: 10px solid #4AB648;
+  }
+  .border-ghost {
+    border: 10px solid #323569;
+  }
+  .border-steel {
+    border: 10px solid #5E736C;
+  }
+  .border-fire {
+    border: 10px solid #e46414;
+  }
+  .border-water {
+    border: 10px solid #2986ff;
+  } 
+  .border-grass {
+    border: 10px solid #47dc67;
+  }
+  .border-electric {
+    border: 10px solid #0C1395;
+  }
+  .border-psychic {
+    border: 10px solid #850505;
+  }
+  .border-ice {
+    border: 10px solid #6FBEDF;
+  }
+  .border-dragon {
+    border: 10px solid #478A93;
+  }
+  .border-dark {
+    border: 10px solid #030706;
+  }
+  .border-fairy {
+    border: 10px solid #971B45;
+  }
+  .border-unknown {
+    border: 10px solid #696767;
+  }
+  .border-shadow {
+    border: 10px solid #6c31a3;
+  }
+
+  .bg-lg-normal {
+    background: linear-gradient(180deg, #6a323f, #9b4759, #c47687);
+  }
+  .bg-lg-fighting {
+    background: linear-gradient(180deg, #6f2917, #c54b2d, #bf634d);
+  }
+  .bg-lg-flying {
+    background: linear-gradient(180deg, #beb14c, #000);
+  }
+  .bg-lg-poison {
+    background: linear-gradient(180deg, #4c2079, #7f42b8, #b479eb);
+  }
+  .bg-lg-ground {
+    background: linear-gradient(180deg, #563504, #915e11, #db9328);
+  }
+  .bg-lg-rock {
+    background: linear-gradient(180deg, #555454, #8c8c92, #bdbcbc);
+  }
+  .bg-lg-bug {
+    background: linear-gradient(180deg, #359c33, #4abb48, #8efc8c);
+  }
+  .bg-lg-ghost {
+    background: linear-gradient(180deg, #252755, #3c419a, #6369d3);
+  }
+  .bg-lg-steel {
+    background: linear-gradient(180deg, #3c4a46, #546f66, #a4a4a4 );
+  }
+  .bg-lg-fire {
+    background: linear-gradient(180deg, #f14410, #E35825, #E8AE1B);
+  }
+  .bg-lg-water {
+    background: linear-gradient(180deg, #1c4980, #116be1, #6ea4ec);
+  }
+  .bg-lg-grass {
+    background: linear-gradient(180deg, #7EC6C5, #ABDAC6, #CAE099);
+  }
+  .bg-lg-electric {
+    background: linear-gradient(180deg, #050b72, #2e34a3, #545be0);
+  }
+  .bg-lg-psychic {
+    background: linear-gradient(180deg, #000000, #8f0505, #f71919);
+  }
+  .bg-lg-ice {
+    background: linear-gradient(180deg, #0c85b9, #42b8e6, #a7e1fa);
+  }
+  .bg-lg-dragon {
+    background: linear-gradient(180deg, #1a6d78, #3a98a4, #86bfc5);
+  }
+  .bg-lg-dark {
+    background: linear-gradient(180deg, #030706, #000);
+  }
+  .bg-lg-fairy {
+    background: linear-gradient(180deg, #a7093e, #d2265f, #d46b8e);
+  }
+  .bg-lg-unknown {
+    background: linear-gradient(180deg, #696767, #000);
+  }
+  .bg-lg-shadow {
+    background: linear-gradient(180deg, #6c31a3, #000);
+  }
