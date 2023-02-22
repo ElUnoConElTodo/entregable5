@@ -16,7 +16,7 @@ const Home = () => {
     <main className='home'>
         <section>
             <div className='img'>
-                <img src="public/images/pokedex.png" alt="" />
+                <img src="/images/pokedex.png" alt="" />
             </div>
             <div className='home_welcome'>
                 <h2 className='home_hello'>Hello Trainer!</h2>
